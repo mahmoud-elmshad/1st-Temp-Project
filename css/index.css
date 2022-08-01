@@ -1,0 +1,243 @@
+body {
+    font-family: "Lato", "Roboto", sans-serif;
+}
+.container-header {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+}
+.container {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+}
+/* Start Header */
+.header {
+    /* position: fixed; */
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #022E3B;
+    text-decoration: none;
+}
+/* .header .container {
+    display: flex;
+    align-items: center;
+} */
+.header .links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+/* .header .links div {
+    min-width: 120px;
+} */
+.header .links a{
+    text-decoration: none;
+    color: white;
+    min-width: 90px;
+}
+/* .header .links div {
+    width: 100px;
+    background-color: #022E3B;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    
+} */
+/* End Header */
+/* Start Home Section */
+.home {
+    background-image: url(../images/photography-3.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.home .home-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    background-color: #022E3B;
+    font-size: 19px;
+    letter-spacing: 10px;
+    width: 400px;
+    max-width: 100%;
+}
+/* End Home Section */
+
+/* Start About Section */
+.about {
+    margin-top: 50px;
+    background-color: #fff;
+}
+.about-me-text {
+    font-size: 19px;
+    text-align: center;
+}
+.about-text {
+    line-height: 1.5;
+    text-align: justify;
+}
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.grid-container-image {
+    width: 45%;
+}
+.image-resize {
+    width: 100%;
+    margin-top: 25px;
+    
+}
+.grid-container-p {
+    /* text-align: justify; */
+    width: 45%;
+}
+.about-text {
+    margin: 0;
+}
+.my-name-text {
+    font-size: 15px;
+    text-align: center
+}
+.percent {
+    margin-top: 30px;
+}
+.spacing {
+    letter-spacing: 10px;
+}
+.bars {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: black;
+    height: 25px;
+    color: #fff;
+}
+.bars-90 {
+    background-color: #022E3B;
+    width: 90%;
+    height: 25px;
+    padding-top: 5px;
+}
+.bars-10 {
+    background-color: #022E3B;
+    width: 10%;
+    height: 25px;
+    padding-top: 5px;
+}
+/* End About Section */
+/* Start Portfolio Section */
+.portfolio {
+    margin-top: 50px;
+    background-image: url(../images/moy-vazquez-UbqvjH69oOQ-unsplash.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.portfolio .portfolio-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    background-color: #022E3B;
+    font-size: 19px;
+    letter-spacing: 10px;
+    width: 400px;
+    max-width: 100%;
+}
+.my-work-text {
+    font-size: 19px;
+    text-align: center;
+    margin-top: 30px;
+}
+.six-images {
+    width: 90%;
+}
+.first-images {
+    margin-top: 10px;
+    display: flex;
+}
+.second-images {
+    margin-top: 10px;
+    display: flex;
+}
+
+/* End Portfolio Section */
+
+/* Start Information Section */
+.contact {
+    margin-top: 50px;
+    background-image: url(../images/hanny-naibaho--3savqescr8-unsplash.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.contact .contact-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    background-color: #022E3B;
+    font-size: 19px;
+    letter-spacing: 10px;
+    width: 400px;
+    max-width: 100%;
+}
+.information {
+    margin-top: 40px;
+    inline-size: 1.8;
+    font-size: 15px;
+}
+.leave-me-a-note {
+    margin-top: 50px;
+}
+.leave-me-a-note-text {
+    margin-bottom: 15px;
+}
+.black-button {
+    color: white;
+    background-color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* End Information Section */
+
+/* Footer */
+.footer {
+    background-color: rgb(24, 24, 24);
+    height: 200px;
+    margin-top: 100px;
+    position: relative;
+}
+.white-icons {
+    color: white;
+    /* display: flex; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
